@@ -1,0 +1,45 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:313)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:371)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:186)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:244)
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray
+	at com.alibaba.fastjson.JSONObject.getJSONArray(JSONObject.java:119)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:78)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:245)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:189)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:247)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:189)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:247)
+error
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1911)
+	at com.network.task.service.PullMV_S3_OfferService.run(PullMV_S3_OfferService.java:62)
+	at com.network.task.service.PullMV_S3_OfferService.main(PullMV_S3_OfferService.java:226)
+error
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(String.java:1911)
+	at com.network.task.service.PullMV_S3_OfferService.run(PullMV_S3_OfferService.java:62)
+	at com.network.task.service.PullMV_S3_OfferService.main(PullMV_S3_OfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullMV_S3_OfferService.run(PullMV_S3_OfferService.java:178)
+	at com.network.task.service.PullMV_S3_OfferService.main(PullMV_S3_OfferService.java:234)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullMV_S3_OfferService.run(PullMV_S3_OfferService.java:179)
+	at com.network.task.service.PullMV_S3_OfferService.main(PullMV_S3_OfferService.java:235)

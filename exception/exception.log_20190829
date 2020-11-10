@@ -1,0 +1,9 @@
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONArray cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSONObject.getJSONObject(JSONObject.java:109)
+	at com.network.task.service.CPA_ClickmobadOfferService.run(CPA_ClickmobadOfferService.java:65)
+	at com.network.task.service.CPA_ClickmobadOfferService.main(CPA_ClickmobadOfferService.java:236)
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to java.util.Map$Entry
+	at com.network.task.service.CPA_ClickmobadOfferService.run(CPA_ClickmobadOfferService.java:67)
+	at com.network.task.service.CPA_ClickmobadOfferService.main(CPA_ClickmobadOfferService.java:236)

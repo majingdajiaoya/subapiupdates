@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd 
+	    http://www.springframework.org/schema/aop 
+	    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+	    http://www.springframework.org/schema/tx   
+        http://www.springframework.org/schema/tx/spring-tx-3.0.xsd  
+	">
+
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="locations">
+			<list>
+				<value>classpath:log4j.properties</value>
+				<value>classpath:mysql.properties</value>
+			</list>
+		</property>
+	</bean>
+
+	<!-- jdbc dataSource -->
+	<bean id="dsHots" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+		<property name="driver">
+			<value>${mysql.driver}</value>
+		</property>
+		<property name="driverUrl">
+			<value>${mysql.url}</value>
+		</property>
+		<property name="user" value="${mysql.username}" />
+		<property name="password" value="${mysql.password}" />
+		<property name="alias" value="Ads" />
+		<property name="maximumActiveTime" value="${mysql.maxActiveTime}" />
+		<property name="maximumConnectionCount" value="${mysql.maxConnCount}" />
+		<property name="minimumConnectionCount" value="${mysql.minConnCount}" />
+		<property name="simultaneousBuildThrottle" value="${mysql.buildThrottle}" />
+		<property name="houseKeepingTestSql" value="${mysql.keepTestSql}" />
+	</bean>
+
+	<bean id="springHelper" class="com.network.task.util.TuringSpringHelper"></bean>
+
+	<!-- service -->
+
+	<bean id="pullOfferCommonService" class="com.network.task.service.base.PullOfferCommonService"></bean>
+
+	<!-- dao -->
+
+	<bean id="advertisersDao" class="com.network.task.dao.AdvertisersDao">
+		<property name="dataSource">
+			<ref local="dsHots" />
+		</property>
+	</bean>
+
+	<bean id="advertisersDistributeDao" class="com.network.task.dao.AdvertisersDistributeDao">
+		<property name="dataSource">
+			<ref local="dsHots" />
+		</property>
+	</bean>
+
+	<bean id="advertisersOfferDao" class="com.network.task.dao.AdvertisersOfferDao">
+		<property name="dataSource">
+			<ref local="dsHots" />
+		</property>
+	</bean>
+
+	<bean id="affiliatesOfferDao" class="com.network.task.dao.AffiliatesOfferDao">
+		<property name="dataSource">
+			<ref local="dsHots" />
+		</property>
+	</bean>
+
+	<bean id="blacklistPKGDao" class="com.network.task.dao.BlacklistPKGDao">
+		<property name="dataSource">
+			<ref local="dsHots" />
+		</property>
+	</bean>
+	<bean id="Blacklist_affiliates_subidDao" class="com.network.task.dao.Blacklist_affiliates_subidDao">
+		<property name="dataSource">
+			<ref local="dsHots" />
+		</property>
+	</bean>
+
+	<bean id="Whitelist_affiliates_subidDao" class="com.network.task.dao.Whitelist_affiliates_subidDao">
+		<property name="dataSource">
+			<ref local="dsHots" />
+		</property>
+	</bean>
+
+	<!-- 要调用的工作类 -->
+	<bean id="pullOfferJob" class="com.network.task.schedule.PullOfferJob"></bean>
+
+	<!-- 线程执行器配置，用于任务注册 -->
+	<bean id="executor"
+		class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
+		<property name="corePoolSize" value="10" />
+		<property name="maxPoolSize" value="100" />
+		<property name="queueCapacity" value="500" />
+	</bean>
+
+	<!-- 定义调用对象和调用对象的方法 -->
+	<bean id="jobtask"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<!-- 调用的类 -->
+		<property name="targetObject">
+			<ref bean="pullOfferJob" />
+		</property>
+		<!-- 调用类中的方法 -->
+		<property name="targetMethod">
+			<value>doPullOffer</value>
+		</property>
+	</bean>
+
+	<!-- 定义触发时间 -->
+	<bean id="doTime"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="jobtask" />
+		</property>
+		<!-- cron表达式 -->
+		<property name="cronExpression">
+			<value>0 04 09 * * ?</value>
+			<!-- <value>0 */15 * * * ?</value> -->
+
+		</property>
+	</bean>
+
+	<!-- 总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序 -->
+	<bean id="startQuertz" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="doTime" />
+			</list>
+		</property>
+
+		<property name="taskExecutor" ref="executor"></property>
+	</bean>
+
+</beans>

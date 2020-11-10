@@ -1,0 +1,110 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:302)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:335)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:301)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:334)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:268)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:301)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:268)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:301)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:267)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:300)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:132)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:207)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:267)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:300)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:267)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:300)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:266)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:299)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:265)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:265)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:265)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:265)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:265)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:264)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:297)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:263)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:296)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:264)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:297)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:267)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:300)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:264)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:297)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:265)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:132)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:207)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:135)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:210)

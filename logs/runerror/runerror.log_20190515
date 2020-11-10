@@ -1,0 +1,3 @@
+Cookie rejected: "[version: 0][name: BAIDUID][value: 7C2CE35E6D2F038A133C486DBE81678C:FG=1][domain: .baidu.com][path: /][expiry: Thu May 14 15:48:14 CST 2020]". Illegal domain attribute "baidu.com". Domain of origin: "feed.xyz.duunion.com"
+Cookie rejected: "[version: 0][name: BAIDUID][value: 2492EE487EBED21E63D11417A6238CA2:FG=1][domain: .baidu.com][path: /][expiry: Thu May 14 15:48:27 CST 2020]". Illegal domain attribute "baidu.com". Domain of origin: "feed.xyz.duunion.com"
+Cookie rejected: "[version: 0][name: BAIDUID][value: B3A0F4E3E58729634BD6DB5B64E840DA:FG=1][domain: .baidu.com][path: /][expiry: Thu May 14 15:48:41 CST 2020]". Illegal domain attribute "baidu.com". Domain of origin: "feed.xyz.duunion.com"

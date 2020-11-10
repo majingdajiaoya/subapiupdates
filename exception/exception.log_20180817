@@ -1,0 +1,35 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:81)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:475)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:81)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:475)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:140)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:419)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:140)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:419)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:140)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:420)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:140)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:422)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:143)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:422)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullIchestnutOfferService.run(PullIchestnutOfferService.java:157)
+	at com.network.task.service.PullIchestnutOfferService.main(PullIchestnutOfferService.java:189)

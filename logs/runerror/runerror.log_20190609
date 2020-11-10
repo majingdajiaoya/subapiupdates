@@ -1,0 +1,177 @@
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: https://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: https://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/v3.0/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com//partner/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: http://api.spykemedia.affise.com/partner/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.io.FileNotFoundException: https://api.spykemedia.affise.com/partner/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1624)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:160)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:160)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:221)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:159)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:159)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:159)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://api.spykemedia.affise.com/3.0/partner/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://api.spykemedia.affise.com/3.0/partner/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://api.spykemedia.affise.com/3.0/partner/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.io.IOException: Server returned HTTP response code: 401 for URL: http://api.spykemedia.affise.com/3.0/partner/offers
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:70)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:159)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:220)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSpykemediaOfferService.run(PullSpykemediaOfferService.java:259)
+	at com.network.task.service.PullSpykemediaOfferService.main(PullSpykemediaOfferService.java:287)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAffisePageOfferService.run(PullAffisePageOfferService.java:78)
+	at com.network.task.service.PullAffisePageOfferService.main(PullAffisePageOfferService.java:342)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:271)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:320)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:110)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:159)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:114)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:163)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:116)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:165)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:108)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:167)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:108)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:167)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:118)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:167)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdschampionOfferService.run(PullAdschampionOfferService.java:118)
+	at com.network.task.service.PullAdschampionOfferService.main(PullAdschampionOfferService.java:167)

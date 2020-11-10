@@ -1,0 +1,50 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdviewMobsOfferService.run(PullAdviewMobsOfferService.java:203)
+	at com.network.task.service.PullAdviewMobsOfferService.main(PullAdviewMobsOfferService.java:239)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullInmobiOfferService.run(PullInmobiOfferService.java:275)
+	at com.network.task.service.PullInmobiOfferService.main(PullInmobiOfferService.java:301)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullInmobiOfferService.run(PullInmobiOfferService.java:243)
+	at com.network.task.service.PullInmobiOfferService.main(PullInmobiOfferService.java:268)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:153)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:217)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:153)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:217)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:153)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:217)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:153)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:217)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullSoLosOfferService.run(PullSoLosOfferService.java:160)
+	at com.network.task.service.PullSoLosOfferService.main(PullSoLosOfferService.java:224)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullInmobiOfferService.run(PullInmobiOfferService.java:243)
+	at com.network.task.service.PullInmobiOfferService.main(PullInmobiOfferService.java:268)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullInmobiOfferService.run(PullInmobiOfferService.java:243)
+	at com.network.task.service.PullInmobiOfferService.main(PullInmobiOfferService.java:268)

@@ -1,0 +1,35 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullInmobi2OfferService.run(PullInmobi2OfferService.java:304)
+	at com.network.task.service.PullInmobi2OfferService.main(PullInmobi2OfferService.java:336)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:156)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:181)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:156)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:181)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.TTTTT.run(TTTTT.java:305)
+	at com.network.task.service.TTTTT.main(TTTTT.java:337)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.TTTTT.run(TTTTT.java:305)
+	at com.network.task.service.TTTTT.main(TTTTT.java:337)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.TTTTT.run(TTTTT.java:303)
+	at com.network.task.service.TTTTT.main(TTTTT.java:335)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.TTTTT.run(TTTTT.java:303)
+	at com.network.task.service.TTTTT.main(TTTTT.java:335)

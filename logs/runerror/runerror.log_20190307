@@ -1,0 +1,21 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:165)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:259)
+error
+java.lang.StringIndexOutOfBoundsException: String index out of range: 5
+	at java.lang.String.substring(String.java:1907)
+	at java.lang.String.subSequence(String.java:1946)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:106)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:248)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:156)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:251)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTopInplayableOfferService.run(PullTopInplayableOfferService.java:139)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:189)

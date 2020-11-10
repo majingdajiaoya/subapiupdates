@@ -1,0 +1,5 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTABOfferService.run(PullTABOfferService.java:185)
+	at com.network.task.service.PullTABOfferService.main(PullTABOfferService.java:225)

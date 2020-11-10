@@ -1,0 +1,128 @@
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.execCurl(HttpUtil.java:369)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:56)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.execCurl(HttpUtil.java:369)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:56)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:57)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.execCurl(HttpUtil.java:369)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:56)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullCpxiOfferService.run(PullCpxiOfferService.java:68)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullCpxiOfferService.run(PullCpxiOfferService.java:68)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:134)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:66)
+	at com.network.task.service.PullCpxiOfferService.run(PullCpxiOfferService.java:66)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:57)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+java.lang.ClassCastException: sun.net.www.protocol.http.HttpURLConnection cannot be cast to javax.net.ssl.HttpsURLConnection
+	at com.network.task.util.MyX509TrustManager.getHttpsURLConnection(MyX509TrustManager.java:63)
+	at com.network.task.util.MyX509TrustManager.doPost(MyX509TrustManager.java:121)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:57)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.execCurl(HttpUtil.java:369)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:61)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:163)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.execCurl(HttpUtil.java:369)
+	at com.network.task.service.PullAdealsOfferService.run(PullAdealsOfferService.java:61)
+	at com.network.task.service.PullCpxiOfferService.main(PullCpxiOfferService.java:163)

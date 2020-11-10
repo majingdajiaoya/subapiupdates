@@ -1,0 +1,10 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullZucksAffiliateOfferService.run(PullZucksAffiliateOfferService.java:73)
+	at com.network.task.service.PullZucksAffiliateOfferService.main(PullZucksAffiliateOfferService.java:211)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullZucksAffiliateOfferService.run(PullZucksAffiliateOfferService.java:73)
+	at com.network.task.service.PullZucksAffiliateOfferService.main(PullZucksAffiliateOfferService.java:212)

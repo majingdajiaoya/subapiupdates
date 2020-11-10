@@ -1,0 +1,114 @@
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getRecords(PullResultsmediaOfferService.java:177)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:63)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:99)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:67)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:99)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:67)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:204)
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONArray cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSONObject.getJSONObject(JSONObject.java:109)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:96)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:203)
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONArray cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSONObject.getJSONObject(JSONObject.java:109)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:96)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:203)
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray
+	at com.alibaba.fastjson.JSONObject.getJSONArray(JSONObject.java:119)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:99)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:204)
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.alibaba.fastjson.JSONArray
+	at com.alibaba.fastjson.JSONObject.getJSONArray(JSONObject.java:119)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:98)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:204)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:99)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:203)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:112)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:205)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:112)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:205)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:99)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:206)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:110)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:206)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:117)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:206)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:116)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:205)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:117)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:206)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:117)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:206)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:117)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:206)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:119)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:208)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:121)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:66)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:74)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:208)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:74)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:208)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAvazu_S2SOfferService.run(PullAvazu_S2SOfferService.java:74)
+	at com.network.task.service.PullAvazu_S2SOfferService.main(PullAvazu_S2SOfferService.java:210)

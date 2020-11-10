@@ -1,0 +1,30 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYm3OfferService.run(PullYm3OfferService.java:144)
+	at com.network.task.service.PullYm3OfferService.main(PullYm3OfferService.java:196)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYm3OfferService.run(PullYm3OfferService.java:147)
+	at com.network.task.service.PullYm3OfferService.main(PullYm3OfferService.java:201)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYm3OfferService.run(PullYm3OfferService.java:148)
+	at com.network.task.service.PullYm3OfferService.main(PullYm3OfferService.java:202)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullApiHasOfferService.run(PullApiHasOfferService.java:195)
+	at com.network.task.service.PullApiHasOfferService.main(PullApiHasOfferService.java:217)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullApiHasOfferService.run(PullApiHasOfferService.java:194)
+	at com.network.task.service.PullApiHasOfferService.main(PullApiHasOfferService.java:216)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullApiHasOfferService.run(PullApiHasOfferService.java:194)
+	at com.network.task.service.PullApiHasOfferService.main(PullApiHasOfferService.java:216)

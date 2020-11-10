@@ -1,0 +1,5 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYm3OfferService.run(PullYm3OfferService.java:146)
+	at com.network.task.service.PullYm3OfferService.main(PullYm3OfferService.java:200)

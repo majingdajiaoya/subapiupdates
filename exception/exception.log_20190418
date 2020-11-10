@@ -1,0 +1,45 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullMobringOfferService.run(PullMobringOfferService.java:141)
+	at com.network.task.service.PullMobringOfferService.main(PullMobringOfferService.java:211)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:294)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:297)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullTapticaAllOfferService.GetAll(PullTapticaAllOfferService.java:116)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:63)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:297)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullTapticaAllOfferService.GetAll(PullTapticaAllOfferService.java:116)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:63)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:297)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:300)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:300)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:301)

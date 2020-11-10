@@ -1,0 +1,76 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:81)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:475)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:167)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:516)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullPersionlyOfferService.run(PullPersionlyOfferService.java:483)
+	at com.network.task.service.PullPersionlyOfferService.main(PullPersionlyOfferService.java:516)
+error
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:123)
+	at com.network.task.service.PullInplayablesOfferService.run(PullInplayablesOfferService.java:71)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:168)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 75: http://apipull.inplayable.com/index.php?m=server&p=getoffer&sid=222&secret={apikey}
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 4 more
+error
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:123)
+	at com.network.task.service.PullInplayablesOfferService.run(PullInplayablesOfferService.java:71)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:168)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 75: http://apipull.inplayable.com/index.php?m=server&p=getoffer&sid=222&secret={apikey}
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 4 more
+error
+java.lang.IllegalArgumentException
+	at java.net.URI.create(URI.java:842)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:123)
+	at com.network.task.service.PullInplayablesOfferService.run(PullInplayablesOfferService.java:71)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:168)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 75: http://apipull.inplayable.com/index.php?m=server&p=getoffer&sid=222&secret={apikey}
+	at java.net.URI$Parser.fail(URI.java:2809)
+	at java.net.URI$Parser.checkChars(URI.java:2982)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3072)
+	at java.net.URI$Parser.parse(URI.java:3014)
+	at java.net.URI.<init>(URI.java:578)
+	at java.net.URI.create(URI.java:840)
+	... 4 more
+error
+com.alibaba.fastjson.JSONException: syntax error, expect [, actual {, pos 0
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseArray(DefaultJSONParser.java:965)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseArray(DefaultJSONParser.java:953)
+	at com.alibaba.fastjson.JSON.parseArray(JSON.java:343)
+	at com.network.task.service.PullInplayablesOfferService.run(PullInplayablesOfferService.java:100)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:168)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTopInplayableOfferService.run(PullTopInplayableOfferService.java:137)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:168)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTopInplayableOfferService.run(PullTopInplayableOfferService.java:137)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:168)

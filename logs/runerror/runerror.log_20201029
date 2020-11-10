@@ -1,0 +1,27 @@
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullTtechhkOfferService.run(PullTtechhkOfferService.java:71)
+	at com.network.task.service.PullTtechhkOfferService.main(PullTtechhkOfferService.java:246)
+error
+java.lang.NumberFormatException: For input string: "ok"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at com.alibaba.fastjson.util.TypeUtils.castToInt(TypeUtils.java:408)
+	at com.alibaba.fastjson.JSONObject.getInteger(JSONObject.java:192)
+	at com.network.task.service.PullTtechhkOfferService.run(PullTtechhkOfferService.java:61)
+	at com.network.task.service.PullTtechhkOfferService.main(PullTtechhkOfferService.java:237)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullTtechhkOfferService.run(PullTtechhkOfferService.java:113)
+	at com.network.task.service.PullTtechhkOfferService.main(PullTtechhkOfferService.java:236)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTtechhkOfferService.run(PullTtechhkOfferService.java:146)
+	at com.network.task.service.PullTtechhkOfferService.main(PullTtechhkOfferService.java:170)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTtechhkOfferService.run(PullTtechhkOfferService.java:146)
+	at com.network.task.service.PullTtechhkOfferService.main(PullTtechhkOfferService.java:170)

@@ -1,0 +1,158 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:74)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:207)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:74)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:209)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:74)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:74)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:75)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:75)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:209)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:75)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:75)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:76)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:211)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:75)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:75)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:76)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:211)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:103)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:211)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:103)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:211)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:104)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:212)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:103)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:211)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:104)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:212)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:103)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:211)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:104)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:212)
+error
+com.alibaba.fastjson.JSONException: expect ':' at 0, name do
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:218)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1184)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullResultsmediaOfferService.getPageOffers(PullResultsmediaOfferService.java:104)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:68)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:212)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:73)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:211)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullResultsmediaOfferService.run(PullResultsmediaOfferService.java:73)
+	at com.network.task.service.PullResultsmediaOfferService.main(PullResultsmediaOfferService.java:210)

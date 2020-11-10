@@ -1,0 +1,23 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTopInplayableOfferService.run(PullTopInplayableOfferService.java:153)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:203)
+error
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:204)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:177)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:138)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.Reader.read(Reader.java:140)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:224)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:248)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:125)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:61)
+	at com.network.task.service.PullTopInplayableOfferService.run(PullTopInplayableOfferService.java:61)
+	at com.network.task.service.PullTopInplayableOfferService.main(PullTopInplayableOfferService.java:203)

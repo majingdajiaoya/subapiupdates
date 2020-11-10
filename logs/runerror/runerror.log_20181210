@@ -1,0 +1,10 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:79)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:318)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullMobriderOfferService.run(PullMobriderOfferService.java:80)
+	at com.network.task.service.PullMobriderOfferService.main(PullMobriderOfferService.java:215)

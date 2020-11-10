@@ -1,0 +1,5 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullA4GOfferService.run(PullA4GOfferService.java:135)
+	at com.network.task.service.PullA4GOfferService.main(PullA4GOfferService.java:164)

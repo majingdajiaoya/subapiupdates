@@ -1,0 +1,9 @@
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullMV_S3_OfferService.run(PullMV_S3_OfferService.java:88)
+	at com.network.task.service.PullMV_S3_OfferService.main(PullMV_S3_OfferService.java:192)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullMV_S3_OfferService.run(PullMV_S3_OfferService.java:160)
+	at com.network.task.service.PullMV_S3_OfferService.main(PullMV_S3_OfferService.java:191)

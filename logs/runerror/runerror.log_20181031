@@ -1,0 +1,40 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTABOfferService.run(PullTABOfferService.java:190)
+	at com.network.task.service.PullTABOfferService.main(PullTABOfferService.java:224)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:83)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:391)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:83)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:391)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:83)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:391)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:83)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:397)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:83)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:396)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGameberryMobsOfferService.run(PullGameberryMobsOfferService.java:83)
+	at com.network.task.service.PullGameberryMobsOfferService.main(PullGameberryMobsOfferService.java:397)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTABOfferService.run(PullTABOfferService.java:190)
+	at com.network.task.service.PullTABOfferService.main(PullTABOfferService.java:224)

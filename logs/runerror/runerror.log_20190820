@@ -1,0 +1,56 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:161)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:222)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:161)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:222)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:163)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:224)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:165)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:165)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:165)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:165)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:167)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:228)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:165)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullZucksAffiliateOfferService.run(PullZucksAffiliateOfferService.java:73)
+	at com.network.task.service.PullZucksAffiliateOfferService.main(PullZucksAffiliateOfferService.java:212)
+Cookie rejected: "[version: 0][name: BAIDUID][value: 4DAD15118B03F0C6B45794B7304F45EB:FG=1][domain: .baidu.com][path: /][expiry: Wed Aug 19 22:50:16 CST 2020]". Illegal domain attribute "baidu.com". Domain of origin: "feed.xyz.duunion.com"

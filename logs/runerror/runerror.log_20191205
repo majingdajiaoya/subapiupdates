@@ -1,0 +1,5 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGlispaOfferService.run(PullGlispaOfferService.java:211)
+	at com.network.task.service.PullGlispaOfferService.main(PullGlispaOfferService.java:234)

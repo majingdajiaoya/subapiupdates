@@ -1,0 +1,57 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:162)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:223)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:161)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:222)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:161)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:222)
+error
+javax.net.ssl.SSLHandshakeException: Remote host closed connection during handshake
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:946)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1312)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1339)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1323)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(HttpsClient.java:563)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:185)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+Caused by: java.io.EOFException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.read(InputRecord.java:482)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:927)
+	... 10 more
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:161)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:222)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:162)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:223)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:163)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:224)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:163)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:224)

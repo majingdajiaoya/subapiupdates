@@ -1,0 +1,20 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullApiHasOfferService.run(PullApiHasOfferService.java:198)
+	at com.network.task.service.PullApiHasOfferService.main(PullApiHasOfferService.java:220)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAvazu_S2SOfferService.run(PullAvazu_S2SOfferService.java:74)
+	at com.network.task.service.PullAvazu_S2SOfferService.main(PullAvazu_S2SOfferService.java:211)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAvazu_S2SOfferService.run(PullAvazu_S2SOfferService.java:74)
+	at com.network.task.service.PullAvazu_S2SOfferService.main(PullAvazu_S2SOfferService.java:209)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAvazu_S2SOfferService.run(PullAvazu_S2SOfferService.java:74)
+	at com.network.task.service.PullAvazu_S2SOfferService.main(PullAvazu_S2SOfferService.java:209)

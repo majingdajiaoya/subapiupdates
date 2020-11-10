@@ -1,0 +1,141 @@
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:68)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:227)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:69)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:227)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:69)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:227)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:72)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:230)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:72)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:230)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:72)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:230)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:71)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:229)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:71)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:229)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:71)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:229)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:71)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:229)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:71)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:229)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:72)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:230)
+Using default type string
+Using default type string
+Using default type string
+Using default type string
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:76)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:234)
+Using default type string
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:76)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:234)
+Using default type string
+Using default type string
+Using default type string
+Using default type string
+Using default type string
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullGmoOfferService.run(PullGmoOfferService.java:147)
+	at com.network.task.service.PullGmoOfferService.main(PullGmoOfferService.java:178)

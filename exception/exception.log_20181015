@@ -1,0 +1,65 @@
+error
+java.lang.IllegalArgumentException: Illegal character in query at index 152: http://sync.yeahmobi.com/sync/offer/get?api_id=351755562@qq.com&api_token=9c76ad56921efb1365959985d2bd24aa&limit=500&filters[type][$eq]=android,iospage={page}
+	at java.net.URI.create(URI.java:859)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:114)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:62)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:66)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:265)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 152: http://sync.yeahmobi.com/sync/offer/get?api_id=351755562@qq.com&api_token=9c76ad56921efb1365959985d2bd24aa&limit=500&filters[type][$eq]=android,iospage={page}
+	at java.net.URI$Parser.fail(URI.java:2829)
+	at java.net.URI$Parser.checkChars(URI.java:3002)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3092)
+	at java.net.URI$Parser.parse(URI.java:3034)
+	at java.net.URI.<init>(URI.java:595)
+	at java.net.URI.create(URI.java:857)
+	... 5 more
+error
+java.lang.IllegalArgumentException: Illegal character in query at index 152: http://sync.yeahmobi.com/sync/offer/get?api_id=351755562@qq.com&api_token=9c76ad56921efb1365959985d2bd24aa&limit=500&filters[type][$eq]=android,iospage={page}
+	at java.net.URI.create(URI.java:859)
+	at org.apache.http.client.methods.HttpGet.<init>(HttpGet.java:69)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:114)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:62)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:66)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:265)
+Caused by: java.net.URISyntaxException: Illegal character in query at index 152: http://sync.yeahmobi.com/sync/offer/get?api_id=351755562@qq.com&api_token=9c76ad56921efb1365959985d2bd24aa&limit=500&filters[type][$eq]=android,iospage={page}
+	at java.net.URI$Parser.fail(URI.java:2829)
+	at java.net.URI$Parser.checkChars(URI.java:3002)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3092)
+	at java.net.URI$Parser.parse(URI.java:3034)
+	at java.net.URI.<init>(URI.java:595)
+	at java.net.URI.create(URI.java:857)
+	... 5 more
+error
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:71)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:265)
+error
+java.lang.ClassCastException: java.lang.Integer cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:71)
+	at com.network.task.service.PullYMOfferService.main(PullYMOfferService.java:218)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYMOfferService.run(PullYMOfferService.java:77)
+	at com.network.task.service.PullYMOfferService.main(PullYMOfferService.java:218)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYMOfferService.run(PullYMOfferService.java:77)
+	at com.network.task.service.PullYMOfferService.main(PullYMOfferService.java:218)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYMOfferService.run(PullYMOfferService.java:77)
+	at com.network.task.service.PullYMOfferService.main(PullYMOfferService.java:218)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYMOfferService.run(PullYMOfferService.java:77)
+	at com.network.task.service.PullYMOfferService.main(PullYMOfferService.java:218)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYMOfferService.run(PullYMOfferService.java:77)
+	at com.network.task.service.PullYMOfferService.main(PullYMOfferService.java:218)

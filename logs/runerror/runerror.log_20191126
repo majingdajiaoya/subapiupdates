@@ -1,0 +1,336 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:170)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:231)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:170)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:231)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:170)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:231)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:168)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:229)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:167)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:228)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:165)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:226)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=tjkyU74REe71yT9O_sXPjfTtt4eHomrIKgFXRNa7NTLNpaTBbSR3GOe8S9_Z61Ep6R9B3b6LyzoL596yl9uaIw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=tjkyU74REe71yT9O_sXPjfTtt4eHomrIKgFXRNa7NTLNpaTBbSR3GOe8S9_Z61Ep6R9B3b6LyzoL596yl9uaIw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=tjkyU74REe71yT9O_sXPjfTtt4eHomrIKgFXRNa7NTLNpaTBbSR3GOe8S9_Z61Ep6R9B3b6LyzoL596yl9uaIw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=tjkyU74REe71yT9O_sXPjfTtt4eHomrIKgFXRNa7NTLNpaTBbSR3GOe8S9_Z61Ep6R9B3b6LyzoL596yl9uaIw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.io.IOException: Server returned HTTP response code: 401 for URL: https://adfeed.appier.net/v3.0/offers?after=tjkyU74REe71yT9O_sXPjfTtt4eHomrIKgFXRNa7NTLNpaTBbSR3GOe8S9_Z61Ep6R9B3b6LyzoL596yl9uaIw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=tjkyU74REe71yT9O_sXPjfTtt4eHomrIKgFXRNa7NTLNpaTBbSR3GOe8S9_Z61Ep6R9B3b6LyzoL596yl9uaIw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=tjkyU74REe71yT9O_sXPjfTtt4eHomrIKgFXRNa7NTLNpaTBbSR3GOe8S9_Z61Ep6R9B3b6LyzoL596yl9uaIw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.net.MalformedURLException: no protocol: 1h7lm1Jog3KVQjV2Ffg90VE84E
+	at java.net.URL.<init>(URL.java:585)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:70)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.net.MalformedURLException: no protocol: 1h7lm1Jog3KVQjV2Ffg90VE84E
+	at java.net.URL.<init>(URL.java:585)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:70)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:70)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.net.MalformedURLException: no protocol: 1h7lm1Jog3KVQjV2Ffg90VE84E
+	at java.net.URL.<init>(URL.java:585)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:70)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:66)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:221)
+error
+java.net.MalformedURLException: no protocol: 1h7lm1Jog3KVQjV2Ffg90VE84E
+	at java.net.URL.<init>(URL.java:585)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:70)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:65)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:220)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:164)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:225)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:178)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:249)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:178)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:249)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:203)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:262)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:207)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:266)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:205)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:264)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:199)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:257)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=nz_V6dpmcccNDG97SnEHBlFmOhfN7Um7xHivOvKbL_86Y6SF9obkGnACuV2_cwMt_ULj-E1bQFsot0di9rnRnw
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=cZjKn3x_VVdiZBCy9zvzVFzV1bQpHk3tSxNywdWdRO4flaSBj3aIMRpoF0DbRLAHCxzMf9yk7Cemb6xjSJQ4zA
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=tEdujQr-81iNMssYsF8PykzENbSNs4Okr2HWQup_UxqqgdV5Ls5hhp4gZr-b4NIoBXeTcB6_gcr6FRyLY-b9MQ
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=0yh7jmD6J6ncvZTegKrZ8AcdVOw86UL3Ot4H3bi0hah1ZotLW73EuZHcd5HyK649-ylJgCEP37jthYpDIV4SvA
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+error
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:996)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:850)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1300)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=DaiE-97mnhvAqKXi2DTlc1F_3PROU7xDW8ZwzS5t9ckXyG7kgLqnAGJRmE9C0yRxR2HOGXx3kVsWz4l3eWWm7Q
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+error
+java.net.MalformedURLException
+	at java.net.URL.<init>(URL.java:619)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:70)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+Caused by: java.lang.NullPointerException
+	at java.net.URL.<init>(URL.java:524)
+	... 5 more
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=Ss5hmHYSR0-L2VnW10Qg9nBHdbrdg30IsU4TpqMPohgE8lPUefh4BYIMd4O-HklUic3HhFKdxULw0hWU_AfwiA
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:256)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:194)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:252)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:194)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:252)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=NLaFlmDmUPr9ON4i5Zuw91XewmM43Y9cJCbBva4uiOLJcmSOI7pANEBPR0m4qpot1zKRnfqvcvo1kQ4vAq53lg
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:83)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:255)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=pmZGvxZHjsvVujz6F4FxiAV3A5apaAtaB3heyew4rzC4_DjYPny1jTJ1JY17zvYt4jtqUqf5iry261uUuAilgA
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:257)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:199)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:257)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=LBdTMfeIdDvK_0oVsx5mnEC6EFhRBUS9_wnI7hkjSxEibffAGRiAMvtQ_NVMOLM4DPqvZMYrsD9kriW-ISweGg
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:257)
+error
+java.io.IOException: Server returned HTTP response code: 500 for URL: https://adfeed.appier.net/v3.0/offers?after=fTUH6dvtLe1sGYm5shZLKe4Cp5nFnbZRGa4AU0ijtrJGIjDpeDeIHhZYTkWK6itms0V4ts_p05ddMmAZVyS9LA
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1626)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.network.task.util.SslUtils.getRequest(SslUtils.java:78)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:85)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:257)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:199)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:257)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppierOfferService.run(PullAppierOfferService.java:313)
+	at com.network.task.service.PullAppierOfferService.main(PullAppierOfferService.java:371)

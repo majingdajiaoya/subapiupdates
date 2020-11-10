@@ -1,0 +1,20 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:133)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:208)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:135)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:210)
+error
+java.lang.ClassCastException: java.lang.String cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSONArray.getJSONObject(JSONArray.java:186)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:91)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:212)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:137)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:212)

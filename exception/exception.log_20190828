@@ -1,0 +1,44 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:165)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:260)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:165)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:260)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:170)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:81)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:272)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:81)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:272)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:81)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:275)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:81)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:278)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:81)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:277)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:81)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:277)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullYouAppiOfferService.run(PullYouAppiOfferService.java:178)
+	at com.network.task.service.PullYouAppiOfferService.main(PullYouAppiOfferService.java:273)

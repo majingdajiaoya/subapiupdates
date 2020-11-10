@@ -1,0 +1,123 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:158)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:126)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:62)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:61)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:67)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:67)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:67)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:67)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+org.apache.http.conn.HttpHostConnectException: Connection to https://portal.adorca.com refused
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:190)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:126)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:62)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:61)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:618)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:549)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	... 10 more
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:126)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:62)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:61)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:182)
+error
+javax.net.ssl.SSLPeerUnverifiedException: peer not authenticated
+	at sun.security.ssl.SSLSessionImpl.getPeerCertificates(SSLSessionImpl.java:421)
+	at org.apache.http.conn.ssl.AbstractVerifier.verify(AbstractVerifier.java:128)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:572)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:294)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:640)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:479)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:805)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:784)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:126)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:62)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:61)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:63)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:63)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:158)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAdorcaOfferService.run(PullAdorcaOfferService.java:158)
+	at com.network.task.service.PullAdorcaOfferService.main(PullAdorcaOfferService.java:183)

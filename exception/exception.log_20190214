@@ -1,0 +1,40 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:291)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:291)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:292)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:72)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:292)
+error
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:204)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:177)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:138)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.Reader.read(Reader.java:140)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:224)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:248)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:125)
+	at com.network.task.util.HttpUtil.sendGet(HttpUtil.java:61)
+	at com.network.task.service.PullTapticaAllOfferService.GetAll(PullTapticaAllOfferService.java:94)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:64)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:292)

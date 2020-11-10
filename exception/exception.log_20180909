@@ -1,0 +1,15 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppthisOfferService.run(PullAppthisOfferService.java:143)
+	at com.network.task.service.PullAppthisOfferService.main(PullAppthisOfferService.java:173)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppthisOfferService.run(PullAppthisOfferService.java:139)
+	at com.network.task.service.PullAppthisOfferService.main(PullAppthisOfferService.java:169)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullAppthisOfferService.run(PullAppthisOfferService.java:139)
+	at com.network.task.service.PullAppthisOfferService.main(PullAppthisOfferService.java:169)

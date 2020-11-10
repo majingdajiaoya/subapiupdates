@@ -1,0 +1,65 @@
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:106)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:263)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:106)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:264)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:107)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:107)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:107)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:107)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:107)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:151)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:151)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:265)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullOffersLookService.getPageOffers(PullOffersLookService.java:151)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:64)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:268)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullOffersLookService.run(PullOffersLookService.java:70)
+	at com.network.task.service.PullOffersLookService.main(PullOffersLookService.java:268)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullHugOffersService.run(PullHugOffersService.java:242)
+	at com.network.task.service.PullHugOffersService.main(PullHugOffersService.java:268)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullHugOffersService.run(PullHugOffersService.java:242)
+	at com.network.task.service.PullHugOffersService.main(PullHugOffersService.java:269)

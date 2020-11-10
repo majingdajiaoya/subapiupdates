@@ -1,0 +1,10 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticsOfferService.run(PullTapticsOfferService.java:265)
+	at com.network.task.service.PullTapticsOfferService.main(PullTapticsOfferService.java:298)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticsOfferService.run(PullTapticsOfferService.java:252)
+	at com.network.task.service.PullTapticsOfferService.main(PullTapticsOfferService.java:284)

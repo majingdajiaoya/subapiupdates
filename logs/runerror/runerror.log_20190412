@@ -1,0 +1,25 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullLeadboltAndroidOfferService.run(PullLeadboltAndroidOfferService.java:265)
+	at com.network.task.service.PullLeadboltAndroidOfferService.main(PullLeadboltAndroidOfferService.java:288)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullLeadboltAndroidOfferService.run(PullLeadboltAndroidOfferService.java:268)
+	at com.network.task.service.PullLeadboltAndroidOfferService.main(PullLeadboltAndroidOfferService.java:291)
+error
+java.lang.ClassCastException: com.alibaba.fastjson.JSONArray cannot be cast to com.alibaba.fastjson.JSONObject
+	at com.alibaba.fastjson.JSONObject.getJSONObject(JSONObject.java:109)
+	at com.network.task.service.PullLeadboltAndroidOfferService.run(PullLeadboltAndroidOfferService.java:96)
+	at com.network.task.service.PullLeadboltAndroidOfferService.main(PullLeadboltAndroidOfferService.java:269)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullLeadboltAndroidOfferService.run(PullLeadboltAndroidOfferService.java:247)
+	at com.network.task.service.PullLeadboltAndroidOfferService.main(PullLeadboltAndroidOfferService.java:269)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullLeadboltAndroidOfferService.run(PullLeadboltAndroidOfferService.java:250)
+	at com.network.task.service.PullLeadboltAndroidOfferService.main(PullLeadboltAndroidOfferService.java:272)

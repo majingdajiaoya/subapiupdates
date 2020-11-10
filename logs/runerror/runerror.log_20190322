@@ -1,0 +1,5 @@
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullCheetah_TWOfferService.run(PullCheetah_TWOfferService.java:143)
+	at com.network.task.service.PullCheetah_TWOfferService.main(PullCheetah_TWOfferService.java:171)

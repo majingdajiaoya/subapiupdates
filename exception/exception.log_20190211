@@ -1,0 +1,52 @@
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullInmobi2OfferService.run(PullInmobi2OfferService.java:87)
+	at com.network.task.service.PullInmobi2OfferService.main(PullInmobi2OfferService.java:340)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullInmobi2OfferService.run(PullInmobi2OfferService.java:87)
+	at com.network.task.service.PullInmobi2OfferService.main(PullInmobi2OfferService.java:340)
+error
+com.alibaba.fastjson.JSONException: syntax error, pos 1
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1240)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parse(DefaultJSONParser.java:1153)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:102)
+	at com.alibaba.fastjson.JSON.parse(JSON.java:93)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:164)
+	at com.network.task.service.PullInmobi2OfferService.run(PullInmobi2OfferService.java:88)
+	at com.network.task.service.PullInmobi2OfferService.main(PullInmobi2OfferService.java:341)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullInmobi2OfferService.run(PullInmobi2OfferService.java:308)
+	at com.network.task.service.PullInmobi2OfferService.main(PullInmobi2OfferService.java:340)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullTapticaAllOfferService.GetAll(PullTapticaAllOfferService.java:105)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:65)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:318)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullTapticaAllOfferService.GetAll(PullTapticaAllOfferService.java:105)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:65)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:318)
+error
+java.lang.NullPointerException
+	at com.network.task.service.PullTapticaAllOfferService.GetAll(PullTapticaAllOfferService.java:105)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:65)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:318)
+error
+java.lang.NullPointerException
+	at com.network.task.util.TuringSpringHelper.getBean(TuringSpringHelper.java:39)
+	at com.network.task.service.PullTapticaAllOfferService.run(PullTapticaAllOfferService.java:79)
+	at com.network.task.service.PullTapticaAllOfferService.main(PullTapticaAllOfferService.java:318)
